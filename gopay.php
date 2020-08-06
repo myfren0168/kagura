@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo "\e[93m!!===========HILMAWAN TUBE===========!! \n";
+echo "\e[93m!!===========KAGURA  OYE===========!! \n";
 echo "\e[32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[32m         SCRIFT GOJEK AGUSTUS       \n";
 echo "\e[93m  ======================================\n";
@@ -72,7 +72,7 @@ echo "\e[32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("green",".");
         sleep(0);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD0607"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0508"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","Message: ".$message);
@@ -86,7 +86,7 @@ echo "\e[32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("green",".");
         sleep(0);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOPAYARENA2020"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD0508"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green"," Message: ".$message);
         sleep(2);
@@ -136,8 +136,8 @@ echo "\e[32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("red","[+] PIN GOPAY KAMU 192881 ")."\n";
-         $data2 = '{"pin":"192881"}';
+         echo color("red","[+] PIN GOPAY KAMU 168168 ")."\n";
+         $data2 = '{"pin":"169168"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "OTP PASANG PIN: ";
          $otpsetpin = trim(fgets(STDIN));
