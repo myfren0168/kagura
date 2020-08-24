@@ -99,7 +99,7 @@ $token = $accesstoken;
         echo  "\n".("\e[7m\e[31m ".$message)." \e[0m\n";
         }
         gofodod:
-        echo "\n"."\e[7m\e[34m\e[5m Kl\e[0m"."\e[7m\e[34m\e[5maim vou\e[0m"."\e[7m\e[34m\e[5mcher 6\e[0m"."\e[7m\e[34m\e[5m0% : y/n \e[0m";
+        echo "\n"."\e[7m\e[34m\e[5m Kl\e[0m"."\e[7m\e[34m\e[5maim vou\e[0m"."\e[7m\e[34m\e[5mcher 2\e[0m"."\e[7m\e[34m\e[5m0. : y/n \e[0m";
         $pilih1 = trim(fgets(STDIN));
         if($pilih1 == "y" || $pilih1 == ""){
     	$d_2450309517="\e[7m\e[36m\e[1m Ple\e[0m"."\e[7m\e[36m\e[1mase wa\e[0m"."\e[7m\e[36m\e[1mit \e[0m";for($r_1872009285=35;$r_1872009285>-1;$r_1872009285--){echo "\r                             \r";echo "\r".$d_2450309517."\e[7m\e[36m\e[1m".$r_1872009285." \e[0m";
@@ -125,7 +125,7 @@ or$r_1872009285==18 or$r_1872009285==14 or$r_1872009285==11 or$r_1872009285==8 o
   	<?php
 date_default_timezone_set('Asia/Jakarta');
 include "functionB.php";
-        echo "\n"."\e[7m\e[34m\e[5m Kla\e[0m"."\e[7m\e[34m\e[5mim Vo\e[0m"."\e[7m\e[34m\e[5much\e[0m"."\e[7m\e[34m\e[5mer 6\e[0m"."\e[7m\e[34m\e[5m0% : y/n \e[0m";
+        echo "\n"."\e[7m\e[34m\e[5m Kla\e[0m"."\e[7m\e[34m\e[5mim Vo\e[0m"."\e[7m\e[34m\e[5much\e[0m"."\e[7m\e[34m\e[5mer 2\e[0m"."\e[7m\e[34m\e[5m0. : y/n \e[0m";
         $pilih1 = trim(fgets(STDIN));
         if($pilih1 == "y" || $pilih1 == ""){
     	$d_2450309517="\e[7m\e[36m\e[1m Ple\e[0m"."\e[7m\e[36m\e[1mase wa\e[0m"."\e[7m\e[36m\e[1mit \e[0m";for($r_1872009285=29;$r_1872009285>-1;$r_1872009285--){echo "\r                             \r";echo "\r".$d_2450309517."\e[7m\e[36m\e[1m".$r_1872009285." \e[0m";
