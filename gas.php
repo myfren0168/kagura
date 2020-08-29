@@ -10,7 +10,7 @@ echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 echo color("yellow","[] Time : ".date('[d-m-Y] [H:i:s]')." \n");
 echo color("purple","[] SCRIPT VOC 20+15+10+5 + 60% \n");
 echo color("green","[] CARA MENULIS NOMOR PAKAI 62/08\n");
-echo color("red","[] Created By Ramz Tutorial  \n");
+echo color("red","[] Toped nya di garap ya  \n");
 echo color("nevy","[] By Donz Group \n");
 echo color("blue","[] SEMOGA CUAN 😎 \n");
 echo color("green","[] JANGAN LUPA BERDOA SEBELUM CLAIM \n");
